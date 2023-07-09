@@ -5,7 +5,7 @@ const { generateFile } = require("./generateFile");
 const problem=require("./Models/problemModel")
 const TestCaseinput=require("./Models/TestCaseinputModel")
 const TestCaseoutput=require("./Models/TestCaseoutputModel")
-const { executeCpp } = require("./executeCpp");
+const { executeCpp } = require("./ExecuteCpp");
 const connectDB = require("./config/db");
 
 const app = express();
